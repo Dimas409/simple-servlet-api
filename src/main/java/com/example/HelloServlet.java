@@ -10,6 +10,6 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
-        resp.getWriter().println("<h1>Hello, World! This is my Servlet.</h1>");
+        resp.getWriter().println("<h1>Hello, World! This is Not my Servlet.</h1>");
     }
 }
